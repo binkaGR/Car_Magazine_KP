@@ -1,0 +1,18 @@
+﻿<Window x:Class="Car_Magazine_KP.client"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Car_Magazine_KP"
+        mc:Ignorable="d"
+        Title="client" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="Product" HorizontalAlignment="Left" Height="247" Margin="78,38,0,0" VerticalAlignment="Top" Width="270" SelectionChanged="Product_SelectionChanged"/>
+        <Button x:Name="Information" Content="Information" HorizontalAlignment="Left" Height="58" Margin="310,330,0,0" VerticalAlignment="Top" Width="185" FontSize="24" Click="Information_Click"/>
+        <CheckBox x:Name="Cars" Content="Cars" HorizontalAlignment="Left" Height="42" Margin="472,82,0,0" VerticalAlignment="Top" Width="254" FontSize="24" Checked="Cars_Checked"/>
+        <CheckBox x:Name="Accessories" Content="Accessories" HorizontalAlignment="Left" Height="45" Margin="472,166,0,0" VerticalAlignment="Top" Width="254" FontSize="24" Checked="Accessories_Checked"/>
+        <CheckBox x:Name="Car_parts" Content="Car parts" HorizontalAlignment="Left" Height="56" Margin="472,229,0,0" VerticalAlignment="Top" Width="254" FontSize="24" Checked="Car_parts_Checked"/>
+        <Button x:Name="clear_list" Content="Clear list" HorizontalAlignment="Left" Height="58" Margin="530,330,0,0" VerticalAlignment="Top" Width="221" FontSize="24" Click="clear_list_Click"/>
+        <Button x:Name="Cart" Content="Cart" HorizontalAlignment="Left" Height="58" Margin="78,330,0,0" VerticalAlignment="Top" Width="202" FontSize="22" Click="Cart_Click"/>
+    </Grid>
+</Window>
